@@ -1,4 +1,4 @@
-# Backbone.NgView [![Version][version-image]][version-url] [![License][license-image]][license-url]
+# Backbone.NgView [![Build][build-image]][build-url] [![Version][version-image]][version-url] [![License][license-image]][license-url]
 
 The goal of this project is to be able to use AngularJS seamlessly from within Backbone projects. It allows you to create a Backbone view with its DOM managed by AngularJS. Ideal for slowly switching an application from Backbone to AngularJS.
 
@@ -60,6 +60,8 @@ See `/example/index.html` for a complete example.
 [angular-url]: https://angularjs.org
 [backbone-url]: http://backbonejs.org
 [bootstrap-url]: https://docs.angularjs.org/api/ng/function/angular.bootstrap
+[build-image]: http://img.shields.io/travis/rochdev/backbone-ng-view.svg
+[build-url]: https://travis-ci.org/rochdev/backbone-ng-view
 [license-image]: http://img.shields.io/badge/license-MIT-red.svg
 [license-url]: http://en.wikipedia.org/wiki/MIT_License
 [ng-app-url]: https://docs.angularjs.org/api/ng/directive/ngApp
