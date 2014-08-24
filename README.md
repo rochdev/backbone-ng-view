@@ -26,7 +26,7 @@ By default, the view will try to find an existing AngularJS [$rootScope][root-sc
 
 ```html
 <html ng-app="myApp">
-    ...
+  ...
 </html>
 ```
 
@@ -51,7 +51,7 @@ See https://docs.angularjs.org/guide/bootstrap for more information about bootst
 
 ## Example
 
-See `/example/index.html` for a complete example.
+See the [example](example) folder for a complete example.
 
 ## License
 
