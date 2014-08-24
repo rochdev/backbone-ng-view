@@ -1,6 +1,8 @@
-/* global describe, it, expect, beforeEach */
+/* global describe, it, expect, beforeEach, afterEach */
 (function(NgView) {
   'use strict';
+
+  var view;
 
   Backbone.$ = angular.element;
 
@@ -17,9 +19,11 @@
     view.render();
   }
 
+  afterEach(function() {
+    view.remove();
+  });
+
   describe('Backbone.NgView', function() {
-    var view;
-    
     beforeEach(function(done) {
       view = new NgView();
 
@@ -32,8 +36,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         resolve: {
@@ -59,8 +61,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-    
     beforeEach(function(done) {
       view = new NgView();
 
@@ -75,8 +75,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-    
     beforeEach(function(done) {
       view = new NgView({
         modules: ['app']
@@ -93,8 +91,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         template: 'test'
@@ -111,8 +107,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         template: function() {
@@ -131,8 +125,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         template: function() {
@@ -158,8 +150,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         template: '{{content}}',
@@ -179,8 +169,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         templateUrl: 'test.html'
@@ -200,8 +188,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         templateUrl: function() {
@@ -223,8 +209,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
-
     beforeEach(function(done) {
       view = new NgView({
         controllerAs: 'testCtrl'
@@ -241,7 +225,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
     var service;
 
     beforeEach(function(done) {
@@ -265,7 +248,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
     var service;
 
     beforeEach(function(done) {
@@ -297,7 +279,6 @@
   });
 
   describe('Backbone.NgView', function() {
-    var view;
     var service;
 
     beforeEach(function(done) {
