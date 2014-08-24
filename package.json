@@ -1,0 +1,32 @@
+{
+  "name": "backbone-ng-view",
+  "version": "0.1.0",
+  "description": "A simple Backbone view wraping AngularJS.",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "angular.js",
+    "backbone",
+    "backbonejs",
+    "backbone.js",
+    "view",
+    "views"
+  ],
+  "main": "backbone-ng-view.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint backbone-ng-view.js && ./node_modules/karma/bin/karma start --single-run",
+    "build": "./node_modules/uglify-js/bin/uglifyjs backbone-ng-view.js -c --comments -m --source-map backbone-ng-view.min.js.map -o backbone-ng-view.min.js"
+  },
+  "author": "Roch Devost",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "jshint": "^2.5.5",
+    "karma": "^0.12.22",
+    "karma-jasmine": "^0.2.0",
+    "karma-junit-reporter": "^0.2.2",
+    "karma-mocha-reporter": "^0.3.0",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "uglify-js": "^2.4.15"
+  }
+}

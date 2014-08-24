@@ -1,0 +1,37 @@
+{
+  "name": "backbone-ng-view",
+  "version": "0.1.0",
+  "description": "A simple Backbone view wraping AngularJS.",
+  "keywords": [
+    "angular",
+    "angularjs",
+    "angular.js",
+    "backbone",
+    "backbonejs",
+    "backbone.js",
+    "view",
+    "views"
+  ],
+  "license": "MIT",
+  "main": [
+    "backbone-ng-view.js"
+  ],
+  "ignore": [
+    "**/.*",
+    ".gitignore",
+    ".jshintrc",
+    ".travis.yml",
+    "node_modules",
+    "bower_components",
+    "test",
+    "example",
+    "package.json",
+    "karma.conf.js",
+    "test-results.xml"
+  ],
+  "dependencies": {
+    "angular": "^1.0.0",
+    "backbone": "^1.0.0"
+  },
+  "devDependencies": {}
+}
