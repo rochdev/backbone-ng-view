@@ -60,12 +60,12 @@ See the [example](example) folder for a complete example.
 [angular-url]: https://angularjs.org
 [backbone-url]: http://backbonejs.org
 [bootstrap-url]: https://docs.angularjs.org/api/ng/function/angular.bootstrap
-[build-image]: http://img.shields.io/travis/rochdev/backbone-ng-view.svg
+[build-image]: http://img.shields.io/travis/rochdev/backbone-ng-view.svg?style=flat-square
 [build-url]: https://travis-ci.org/rochdev/backbone-ng-view
-[license-image]: http://img.shields.io/badge/license-MIT-red.svg
+[license-image]: http://img.shields.io/badge/license-MIT-red.svg?style=flat-square
 [license-url]: http://en.wikipedia.org/wiki/MIT_License
 [ng-app-url]: https://docs.angularjs.org/api/ng/directive/ngApp
 [root-scope-url]: https://docs.angularjs.org/api/ng/service/$rootScope
 [route-provider-url]: https://docs.angularjs.org/api/ngRoute/provider/$routeProvider
-[version-image]: http://img.shields.io/github/tag/rochdev/backbone-ng-view.svg
+[version-image]: http://img.shields.io/badge/release-0.1.1-orange.svg?style=flat-square
 [version-url]: https://github.com/rochdev/backbone-ng-view
