@@ -67,5 +67,5 @@ See the [example](example) folder for a complete example.
 [ng-app-url]: https://docs.angularjs.org/api/ng/directive/ngApp
 [root-scope-url]: https://docs.angularjs.org/api/ng/service/$rootScope
 [route-provider-url]: https://docs.angularjs.org/api/ngRoute/provider/$routeProvider
-[version-image]: http://img.shields.io/badge/release-0.1.1-orange.svg?style=flat-square
+[version-image]: http://img.shields.io/badge/release-0.1.2-orange.svg?style=flat-square
 [version-url]: https://github.com/rochdev/backbone-ng-view
