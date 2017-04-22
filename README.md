@@ -1,5 +1,7 @@
 # Backbone.NgView [![Build][build-image]][build-url] [![Version][version-image]][version-url] [![License][license-image]][license-url]
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rochdev/backbone-ng-view.svg)](https://greenkeeper.io/)
+
 The goal of this project is to be able to use AngularJS seamlessly from within Backbone projects. It allows you to create a Backbone view with its DOM managed by AngularJS. Ideal for slowly switching an application from Backbone to AngularJS.
 
 ## How to install
